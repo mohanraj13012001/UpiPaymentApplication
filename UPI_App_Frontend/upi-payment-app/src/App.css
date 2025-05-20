@@ -1,0 +1,128 @@
+.column-title {
+  font-size: 36px;
+  display: block;
+}
+
+h2 {
+  font-weight: 800;
+  color: #2f2c2c;
+  margin-bottom: .5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: .5rem;
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
+.navbar .dropdown-menu {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .dropdown-menu .contact-item {
+  color: orange;
+  font-size: 14px;
+  font-family: "Arial", sans-serif;
+  padding: 10px 15px;
+}
+
+.navbar .dropdown-menu .contact-item:hover {
+  background-color: #f8f9fa;
+  color: #ff6600;
+}
+
+.navbar {
+  background-color: #007bff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand img {
+  height: 50px;
+  width: auto;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: orange;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  background-color: white;
+}
+
+.footer-header {
+  transition: color 0.3s ease;
+}
+
+.footer-header:hover {
+  color: orange;
+}
+
+.footer-link {
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: orange;
+}
+
+.animate-border {
+  position: relative;
+  display: block;
+  width: 80px;
+  height: 4px;
+  background-color: #6351ce;
+  margin: 10px auto;
+  border-radius: 2px;
+  animation: expand 1.5s ease-in-out infinite;
+}
+
+.animate-border::after {
+  position: absolute;
+  content: "";
+  width: 35px;
+  height: 3px;
+  left: 5%;
+  bottom: -5px;
+  border-left: 10px solid #fff;
+  border-right: 10px solid #fff;
+  box-sizing: border-box;
+}
+
+.button {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.feature-card {
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.feature-card:hover {
+  background-color: #87ceeb;
+  transform: scale(1.05);
+}
